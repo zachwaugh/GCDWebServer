@@ -11,13 +11,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "GCDWebServer",
-            path: "GCDWebServer",
-            cxxSettings: [
-              .headerSearchPath("GCDWebServer/Core"),
-              .headerSearchPath("GCDWebServer/Requests"),
-              .headerSearchPath("GCDWebServer/Responses")
-            ]
+            name: "GCDWebServer"
         )
     ]
 )
